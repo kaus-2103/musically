@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:musically/models/song.dart';
 
@@ -28,7 +29,12 @@ class PlaylistProvider extends ChangeNotifier{
   int? get currentSongIndex => _currentSongIndex;
 
 
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  // final AudioPlayer _audioPlayer = AudioPlayer();
+
+
+  // Duration _currentDuration= Duration.zero;
+  // Duration _totalDuration= Duration.zero;
+  
 
   // Setter
 
